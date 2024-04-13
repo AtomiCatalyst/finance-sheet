@@ -6,7 +6,6 @@ pub fn http_client() -> hyper::Client<hyper_rustls::HttpsConnector<hyper::client
             .with_native_roots()
             .https_only()
             .enable_http1()
-            .enable_http2()
             .build(),
     );
 }

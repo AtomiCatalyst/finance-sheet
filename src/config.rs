@@ -9,9 +9,9 @@ impl Config {
     pub fn new() -> Config {
         Config {
             priv_key: String::from("priv_key.json"),
-            sheet_id: String::from("1VJI0G67jWe4KFeDyqrUpId1pX1-iK0A16maJ7I_pqP4"),
-            deposit_range_input: String::from("Deposits Stream!A2:B"),
-            deposit_range_output: String::from("Deposits Stream!G1"),
+            sheet_id: String::from("1nYamm_hb-G8bIfSTY88hz_PnyvmBOMIhcg4kKVDoai8"),
+            deposit_range_input: String::from("Sheet1!A2:B"),
+            deposit_range_output: String::from("Sheet1!G1"),
         }
     }
 }
